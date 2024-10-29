@@ -1,0 +1,12 @@
+{
+  "devDependencies": {
+    "@biomejs/biome": "latest",
+    "turbo": "latest",
+    "vitest": "latest",
+    "wrangler": "latest"
+  },
+  "scripts": {
+    "dev": "turbo dev",
+    "test": "vitest run"
+  }
+}
