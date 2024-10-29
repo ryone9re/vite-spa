@@ -10,14 +10,9 @@
       "version": "latest",
       "dockerDashComposeVersion": "v2"
     },
-    "ghcr.io/devcontainers/features/go:1": {
-      "version": "latest"
-    },
     "ghcr.io/devcontainers-contrib/features/pnpm:2": {
       "version": "latest"
-    },
-    "./features/sqlc": {},
-    "./features/psqldef": {}
+    }
   },
   "mounts": [
     "source=${localWorkspaceFolderBasename}-node_modules,target=${containerWorkspaceFolder}/node_modules,type=volume",
