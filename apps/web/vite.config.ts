@@ -5,7 +5,7 @@ import { defineConfig } from "vite";
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), TanStackRouterVite()],
-  base: "/<REPO>/",
+  base: "/vite-spa/",
   server: {
     host: "127.0.0.1",
   },
