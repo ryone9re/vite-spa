@@ -1,9 +1,0 @@
-{
-  "id": "sqlc",
-  "version": "1.0.0",
-  "name": "sqlc",
-  "description": "sqlc feature for devcontainer",
-  "installsAfter": [
-    "ghcr.io/devcontainers/features/go"
-  ]
-}
