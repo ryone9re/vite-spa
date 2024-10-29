@@ -5,15 +5,6 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite + React + TS</title>
-    <script>
-      // URLから path を取得
-      const path = window.location.pathname.slice(1);
-      // リポジトリ名を除外
-      const repoName = 'vite-spa'; // あなたのリポジトリ名に変更
-      const processedPath = path.replace(repoName + '/', '');
-      // index.html にリダイレクト
-      window.location.href = '/' + repoName + '/#' + processedPath;
-    </script>
   </head>
   <body>
     <div id="root"></div>
